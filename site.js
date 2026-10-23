@@ -9,7 +9,6 @@ export const site = {
   name: 'Tskhay & Associates',
   legalName: 'Tskhay & Associates, Inc.',
   email: 'konstantin@tskhayandassociates.com',
-  linkedin: 'https://www.linkedin.com/in/konstantintskhay/',
 };
 
 // Links. "home(...)" points at a section of the homepage from any page.
