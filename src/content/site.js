@@ -9,7 +9,6 @@ export const site = {
   name: 'Tskhay & Associates',
   legalName: 'Tskhay & Associates, Inc.',
   email: 'konstantin@tskhayandassociates.com',
-  linkedin: 'https://www.linkedin.com/in/konstantintskhay/',
 };
 
 // Links. "home(...)" points at a section of the homepage from any page.
@@ -27,15 +26,15 @@ export const nav = [
   { label: 'Newsletter', href: 'https://peopleanalytics.substack.com/', external: true },
 ];
 
-export const contactButton = { label: 'Contact Us', href: contactPage };
+export const contactButton = { label: 'Email Us', href: 'https://tskhayandassociates.com/lets-talk' };
 
 export const hero = {
   title: 'Make Your People Strategy Work.',
   body:
     'We use rigorous analytics to connect your workforce to your day-to-day operations, giving you clear, practical, executable programs that drive profitability and performance.',
   photo: {
-    src: `${BASE}konstantin-tskhay.webp`,
-    alt: 'Portrait of Konstantin Tskhay',
+    src: `${BASE}hero-data.svg`,
+    alt: '',
     width: 800,
     height: 1000,
   },
@@ -125,8 +124,8 @@ export const about = {
   ],
   signature: 'Konstantin Tskhay, Ph.D., Managing Partner and Founder',
   photo: {
-    src: `${BASE}konstantin-speaking.webp`,
-    alt: 'Konstantin Tskhay leading a session',
+    src: `${BASE}konstantin-tskhay.webp`,
+    alt: 'Portrait of Konstantin Tskhay',
     width: 800,
     height: 1000,
   },
