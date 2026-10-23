@@ -33,7 +33,7 @@ export const hero = {
   title: 'Make Your People Strategy Work.',
   body:
     'We use rigorous analytics to connect your workforce to your day-to-day operations, giving you clear, practical, executable programs that drive profitability and performance.',
-    photo: {
+  photo: {
     src: `${BASE}hero-data.svg`,
     alt: '',
     width: 800,
@@ -125,8 +125,8 @@ export const about = {
   ],
   signature: 'Konstantin Tskhay, Ph.D., Managing Partner and Founder',
   photo: {
-    src: `${BASE}konstantin-speaking.webp`,
-    alt: 'Konstantin Tskhay leading a session',
+    src: `${BASE}konstantin-tskhay.webp`,
+    alt: 'Portrait of Konstantin Tskhay',
     width: 800,
     height: 1000,
   },
@@ -144,11 +144,11 @@ export const clientWork = {
   title: 'Client Work',
   intro:
     'Konstantin has advised organizations from fast-growing start-ups to Fortune 500s, across financial services, consumer goods, manufacturing, energy and resources, public services, SaaS, education, and healthcare.',
-    photo: {
-    src: `${BASE}konstantin-tskhay.webp`,
-    alt: 'Portrait of Konstantin Tskhay',
-    width: 800,
-    height: 1000,
+  photo: {
+    src: `${BASE}konstantin-networking.webp`,
+    alt: 'Konstantin Tskhay talking with HR and business leaders',
+    width: 1200,
+    height: 900,
   },
   stats: [
     { value: '30', label: 'Consulting projects delivered' },
