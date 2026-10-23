@@ -36,11 +36,6 @@ export default function Footer() {
           <li>
             <a href={`mailto:${site.email}`}>{site.email}</a>
           </li>
-          <li>
-            <a href={site.linkedin} target="_blank" rel="noopener noreferrer">
-              LinkedIn<span className="visually-hidden"> (opens in a new tab)</span>
-            </a>
-          </li>
         </ul>
         <p className="copyright">
           © {year} {site.legalName}
