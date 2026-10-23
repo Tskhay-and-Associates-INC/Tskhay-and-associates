@@ -27,7 +27,7 @@ export const nav = [
   { label: 'Newsletter', href: 'https://peopleanalytics.substack.com/', external: true },
 ];
 
-export const contactButton = { label: 'Contact Us', href: contactPage };
+export const contactButton = { label: 'Email Us', href: 'https://tskhayandassociates.com/lets-talk' };
 
 export const hero = {
   title: 'Make Your People Strategy Work.',
